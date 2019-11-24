@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="jv2_assignment3.Timer" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="159.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Timer countdown" wrappingWidth="281.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtmin" layoutX="145.0" layoutY="160.0" prefHeight="39.0" prefWidth="237.0" promptText="Min">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btn" onAction="#startTime" layoutX="431.0" layoutY="161.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Run">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fx:id="min" layoutX="169.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="264.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":" wrappingWidth="16.6015625">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text fx:id="sec" layoutX="317.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
