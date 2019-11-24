@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="jv2_assignment2.AddStudent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="192.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student" wrappingWidth="167.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tbtname" layoutX="118.0" layoutY="106.0" prefHeight="25.0" prefWidth="368.0" promptText="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tbtage" layoutX="118.0" layoutY="167.0" prefHeight="25.0" prefWidth="368.0" promptText="Age">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tbtmark" layoutX="118.0" layoutY="237.0" prefHeight="25.0" prefWidth="368.0" promptText="Mark">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="250.0" layoutY="309.0" mnemonicParsing="false" text="Add">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
