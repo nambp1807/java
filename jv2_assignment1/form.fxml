@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="jv2_assignment1.Addsp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="160.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="       Form" wrappingWidth="231.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tbtname" layoutX="127.0" layoutY="124.0" prefHeight="25.0" prefWidth="319.0" promptText="Tên sản phẩm">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tbtma" layoutX="127.0" layoutY="178.0" prefHeight="25.0" prefWidth="319.0" promptText="Mã sản phẩm">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tbtgia" layoutX="127.0" layoutY="233.0" prefHeight="30.0" prefWidth="319.0" promptText="Giá">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tbtsl" layoutX="127.0" layoutY="283.0" prefHeight="30.0" prefWidth="319.0" promptText="Số lượng">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button onAction="#SaveList" layoutX="250.0" layoutY="339.0" mnemonicParsing="false" text="Submit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
