@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="jv2_labsession7.ListDetail" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Text fx:id="txttitle" layoutX="37.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="95.6708984375">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Text>
+        <ListView fx:id="tbview" layoutX="37.0" layoutY="91.0" prefHeight="429.0" prefWidth="536.0" />
+
+        <Hyperlink layoutX="37.0" layoutY="537.0" text="&lt;&lt; Back" />
+    </children>
+</Pane>
